@@ -1,0 +1,35 @@
+<head>
+	<title></title>
+
+
+<script type="text/javascript">
+	var changeToRed = function(){
+		document.getElementById("redSquare").style.backgroundColor = "red";
+	};
+
+	var changeToGreen = function(){
+		document.getElementById("greenSquare").style.backgroundColor = "green";
+	};
+
+	
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="redAndGreen.css">
+</head>
+<body>
+<div id="redSquare">
+	
+</div>
+<button id="redButton" onclick="changeToRed()">Click to change to red</button>
+
+<div id="greenSquare">
+			
+</div>
+<button id="greenButton" onclick="changeToGreen()">Click to change to green</button>
+
+
+<script src="jquery-latest.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
